@@ -1,0 +1,119 @@
+   /* indhold */
+
+.header{
+    text-align: center;
+    border-bottom: solid 2px black;
+    width: 250px;
+    margin-left: 18%;
+    margin-bottom: 3%;
+}
+.headermargin{
+    margin-bottom: -19px;
+}
+
+.header2{
+    text-align: center;
+    border-bottom: black solid 2px;
+    margin-left: 35%;
+    margin-right: 35%;
+
+}
+
+.hmargin{
+    margin-bottom: -19px;
+}
+
+.card{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: solid 3px #897863;
+}
+
+.cardpic{
+    float: left;
+    margin-bottom: -5px;
+    margin-top: -0.3px;
+}
+
+.cardtext{
+    align-content: center;
+    text-align: center;
+    float: right;
+    margin-left: 0px;
+    margin-right: 10px;
+    font-size: 15px;
+    height: 285px;
+}
+
+
+.picofworker{
+    width: 90%;
+}
+
+
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+@media only screen and (min-width: 900px) {
+
+    .header{
+       margin-left:41%;
+    }
+
+    .picofworker{
+        width: 60%;
+    }
+
+    .card{
+        margin-left: 20%;
+        margin-right: 20%;
+        height: 100%;
+    }
+
+
+    .cardtext{
+    margin-left: 0px;
+    margin-right: 10px;
+    font-size: 30px;
+    width: 350px;
+    margin-left: -30%;
+        margin-top: 75px;
+
+}
+
+    .header2{
+        width: 250px;
+        margin-left: 42%;
+    }
+
+    .map-responsive iframe{
+        height: 100%;
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .map-responsive {
+        margin-top: 2%;
+        padding-bottom: 30.25%;
+    }
+
+
+
+}

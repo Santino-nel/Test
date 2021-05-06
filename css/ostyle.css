@@ -1,0 +1,165 @@
+.html {
+
+    font-size: 100%;
+}
+
+.titlefont{
+    font-family: 'Noto Sans JP', sans-serif;
+
+}
+
+.cardtext{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.bodycolor {
+    background-color: #c4bda3;
+}
+
+/* [ON MOBILE DEVICES] */
+
+/* navigation container */
+
+.navigation__container {
+    padding-bottom: 5px;
+    position: relative;
+    top: 0px;
+
+}
+
+.mobileiconlabel {
+    display: inline-block;
+    color: white;
+    font-style: normal;
+    font-size: 3rem;
+    padding: 10px 5px;
+    margin-left: 83%;
+}
+
+
+.menuitem {
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.active_menu {
+    text-decoration: underline #897863;
+
+}
+
+.topmargin{
+    margin-top: 15px;
+}
+.menuitems__container,
+.mobileicon {
+    display: none;
+}
+
+
+.navigation__container input:checked ~ .menuitems__container {
+    display: block;
+}
+
+
+.companylogo {
+    position: absolute;
+    top: 8%;
+    left: 6%;
+    width: 100px;
+
+
+}
+
+/*Footer container*/
+.page_footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.footer_card{
+    margin-top: 5px;
+    color: white;
+}
+
+.socialmedia{
+    width: 100px;
+
+}
+
+.sf {
+    margin-left: 25px;
+}
+
+.si {
+    margin-right: 25px;
+}
+
+.kontaktlink{
+    color: white;
+}
+
+@media only screen and (min-width: 900px) {
+
+    /* navigation container */
+
+    .mobileiconlabel,
+    .mobileicon {
+        display: none;
+    }
+
+
+    .menuitems__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0%;
+      }
+
+    .menuitem {
+        width: 188.5px;
+        font-size: 30px;
+    }
+
+
+    .menuitem:hover {
+        border-bottom: solid #897863 3px;
+    }
+
+    .active_menu{
+        text-decoration: none;
+        border-bottom: solid #897863 3px;
+    }
+
+    .topmargin{
+    margin-top: 0px;
+    }
+
+    .companylogo {
+        position:static;
+        width: 20%;
+        margin-left: 40%;
+        margin-right: 40%;
+        left: 0;
+    }
+
+
+
+/* footer container */
+
+   .page_footer {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-start;
+        height: 7rem;
+       height: 200px;
+    }
+
+    }

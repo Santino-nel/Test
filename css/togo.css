@@ -1,0 +1,17 @@
+.togopics{
+    text-align: center;
+}
+
+.togooptions{
+    width: 85%;
+    margin-top: 7%;
+}
+
+
+
+@media only screen and (min-width: 900px){
+    .togooptions{
+        width: 80%;
+        margin-top: 3%;
+    }
+}
